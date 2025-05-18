@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   const projects = [
-    { title: 'Portfolio Website', description: 'Using React and Tailwind CSS', link: '#' },
+    { title: 'Portfolio Website', description: 'Using React and Tailwind CSS', link: 'https://agustrianto-portofolio.vercel.app' },
     { title: 'Web Videobelajar', description: 'Using React and Tailwind CSS', link: '#' },
     { title: 'E-Commerce Website', description: 'Using html, php, java', link: '#' },
 { title: 'Todo App', description: 'Using Tailwind CSS, Java', link: 'https://agustrianto-todo.vercel.app' }
