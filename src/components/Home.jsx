@@ -1,5 +1,6 @@
 import React from 'react';
 import profileImg from '../assets/profil.jpg';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -18,9 +19,12 @@ function Home() {
       </div>
       <h1 className="text-5xl font-bold mb-4">Hi, I'm Agus Trianto</h1>
       <p className="text-lg text-gray-400 mb-6">a passionate full stack developer, with a specialization in frontend</p>
-      <a href="/projects" className="bg-yellow-500 text-gray-900 px-6 py-2 rounded-full hover:bg-yellow-600 transition">
+      <Link
+        to="/projects"
+        className="bg-yellow-500 text-gray-900 px-6 py-2 rounded-full hover:bg-yellow-600 transition"
+      >
         View My Work
-      </a>
+      </Link>
     </section>
   );
 }
